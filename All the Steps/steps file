@@ -1,0 +1,20 @@
+#https://www.youtube.com/watch?v=4e9vhX7ZuCw&list=PLhW3qG5bs-L_mFHirOLEYJ7X2rIXu8SR2
+1. Create maven project
+2. Add dependencies like, cucumber-java, cucumber-testng, selenium-java and testng
+3. Create one folder inside the project name as "Feature"
+4. Create one "login.feature" file inside the folder
+5. Writing the testcase and scenario for login inside it
+6. Run feature file using cucumber once, it will give error because, we have not yet defined the logic or the code
+7. Add steps definitions/Glue code under src/test/java package
+8. So, create one package say StepDefinition inside src/test/java
+9. Create a class inside it say LoginSteps
+10. Inside the class copy paste the given when then statement from console which we got post out 1st run in step6
+NOTE: we can create our own method in TestStep class.
+11.Run the feature file, this time it will be successful
+
+
+12. Create a runner class, from where we actually will run our feature file with some more options
+13. Create a "TestRunner" class inside StepDefinition package
+14. provide some annotation inside the class
+
+
